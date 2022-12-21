@@ -1,6 +1,6 @@
-word = list(input("Введіть слово: "))
+word = input("Введіть слово: ")
 
-for no in word:
+for word in word:
     if "A" in word:
         for i in range(7):  #A
             row = ""
@@ -20,7 +20,6 @@ for no in word:
                         row = row + "*"
             print(row)
 
-for no in word:
     if "B" in word:
         for i in range(7):  #B
             row = ""
@@ -38,7 +37,6 @@ for no in word:
                         row = row + "*"   
             print(row)
 
-for no in word:
     if "C" in word:
         for i in range(7):  #C
             row = ""
@@ -60,7 +58,6 @@ for no in word:
                         row = row + " "
             print(row)   
 
-for no in word:
     if "D" in word:
         for i in range(7):  #D
             row = ""
@@ -77,7 +74,6 @@ for no in word:
                         row = row + " "
             print(row)       
 
-for no in word:
     if "E" in word:
         for i in range(7):  #E
             row = ""
@@ -95,7 +91,6 @@ for no in word:
                         row = row + " "
             print(row)
 
-for no in word:
     if "F" in word:
         for i in range(7):  #F
             row = ""
@@ -116,7 +111,6 @@ for no in word:
                         row = row + "*"
             print(row) 
 
-for no in word:
     if "G" in word:
         for i in range(7):  #G
             row = ""
@@ -143,7 +137,6 @@ for no in word:
                         row = row + " "
             print(row)
 
-for no in word:
     if "H" in word:
         for i in range(7):  #H
             row = ""
@@ -158,7 +151,6 @@ for no in word:
                         row = row + "*"
             print(row)
 
-for no in word:
     if "I" in word:
         for i in range(7):  #I
             row = ""
@@ -175,7 +167,6 @@ for no in word:
                         row = row + " "    
             print(row)
 
-for no in word:
     if "J" in word:
         for i in range(7):  #J
             row = ""
@@ -197,7 +188,6 @@ for no in word:
                         row = row + " "
             print(row)
 
-for no in word:
     if "K" in word:
         for i in range(7):  #K
             row = ""
@@ -223,8 +213,7 @@ for no in word:
                     if j == 3 or j == 4:
                         row = row + " "        
             print(row)
- 
-for no in word:
+
     if "L" in word:
         for i in range(7):  #L
             row = ""
@@ -239,7 +228,6 @@ for no in word:
                         row = row + "*"
             print(row)
 
-for no in word:
     if "T" in word:
         for i in range(7):  #T
             row = ""
@@ -253,8 +241,7 @@ for no in word:
                     if j == 0 or j == 1 or j == 3 or j == 4:
                         row = row + " "
             print(row)
- 
-for no in word:
+
     if "O" in word:
         for i in range(7):  #O
             row = ""
@@ -271,7 +258,6 @@ for no in word:
                         row = row + " "
             print(row)
 
-for no in word:
     if "U" in word:
         for i in range(7):  #U
             row = ""
@@ -288,7 +274,6 @@ for no in word:
                         row = row + "*"
             print(row)
 
-for no in word:
     if "V" in word:
         for i in range(7):  #V
             row = ""
@@ -310,7 +295,6 @@ for no in word:
                         row = row + " "
             print(row)
 
-for no in word:
     if "M" in word:
         for i in range(7):  #M
             row = ""
@@ -332,8 +316,7 @@ for no in word:
                         row = row + "*"
                     
             print(row)
-            
-for no in word:
+
     if "P" in word:
         for i in range(7):  #P
             row = ""
@@ -352,8 +335,7 @@ for no in word:
                     if j == 0 or j == 1 or j == 2 or j == 3:
                         row = row + "*"
             print(row)
-            
-for no in word:
+
     if "S" in word:
         for i in range(7):  #S
             row = ""
@@ -374,8 +356,7 @@ for no in word:
                     if j == 0 or j == 1 or j == 2 or j == 3:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "W" in word:
         for i in range(7):  #W
             row = ""
@@ -397,8 +378,7 @@ for no in word:
                         row = row + " "  
                     
             print(row)
-            
-for no in word:
+
     if "X" in word:
         for i in range(7):  #X
             row = ""
@@ -419,8 +399,7 @@ for no in word:
                     if j == 0 or j == 1 or j == 3 or j == 4:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "N" in word:
         for i in range(7):  #N
             row = ""
@@ -446,8 +425,7 @@ for no in word:
                     if j == 1 or j == 2:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "R" in word:
         for i in range(7):  #R
             row = ""
@@ -471,8 +449,7 @@ for no in word:
                     if j == 1 or j == 2:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "Y" in word:
         for i in range(7):  #Y
             row = ""
@@ -493,8 +470,7 @@ for no in word:
                     if j == 0 or j == 1 or j == 3 or j == 4:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "Q" in word:
         for i in range(7):  #Q
             row = ""
@@ -520,8 +496,7 @@ for no in word:
                     if j == 0 or j == 3:
                         row = row + " "
             print(row)
-            
-for no in word:
+
     if "Z" in word:
         for i in range(7):  #Z
             row = ""
