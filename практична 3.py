@@ -1,4 +1,4 @@
-word = input("Введіть слово: ")
+word = input("Введіть слово з великої літери: ")
 
 for word in word:
     if "A" in word:
